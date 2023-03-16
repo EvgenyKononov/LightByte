@@ -1,9 +1,6 @@
 {
-  "name": "TurboMenu",
-  "private": true,
+  "name": "LightBite",
   "description": "Easily create and manage a contactless menu for your restaurant",
-  "version": "0.1.0",
-  "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

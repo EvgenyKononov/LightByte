@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import BMC from "../assets/BMC.svg"
 
 const globalFooter = React.forwardRef((props, ref) => {
   const block = "globalFooter"
@@ -12,7 +11,7 @@ const globalFooter = React.forwardRef((props, ref) => {
         <span role='img' aria-label='heart'>
           ❤️
         </span>{" "}
-        in Toronto
+        in Israel
       </p>
       <p>
         <Link to='/about'>About us</Link>
@@ -23,18 +22,6 @@ const globalFooter = React.forwardRef((props, ref) => {
         Questions? Reach out:{" "}
         <a href='mailto:hello@turbo.menu'>hello@turbo.menu</a>
       </p>
-      <p>
-        TurboMenu is 100% free and{" "}
-        <a href='https://github.com/azakiio/turbomenu'>open-source</a>, consider
-        supporting us.
-      </p>
-      <a
-        href='https://www.buymeacoffee.com/turbomenu'
-        target='_blank'
-        rel='noreferrer'
-      >
-        <img className={`${block}__bmc`} src={BMC} alt='Buy Me A Coffee' />
-      </a>
     </footer>
   )
 })

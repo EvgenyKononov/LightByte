@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-$primary: #e00000;
-$black: #363636;
+$primary: hsl(36,61%,68.8%);
+$black: hsl(0,0%,80.8%);
 $grey: #707070;
 $light-grey: #cecece;
 $primary-font: "Cabin";
 $secondary-font: "Open Sans";
 $mobile-breakpoint: 767px;
 $tablet-breakpoint: 1024px;
-$red: #e00000;
-$background: #fafafa;
+$red: hsl(36,61%,68.8%);
+$background: hsl(220,14.3%,16.1%);;
 
 @mixin mobile {
   @media (max-width: $mobile-breakpoint) {
@@ -63,7 +63,7 @@ $background: #fafafa;
   font-weight: 600;
   color: $grey;
   text-align: center;
-  background: white;
+  background: hsl(220,14.3%,16.1%);;
   border: none;
 
   &:hover {
@@ -101,7 +101,7 @@ $background: #fafafa;
 }
 
 @mixin menu {
-  background: #ffffff;
+  background: hsl(220,14.3%,16.1%);;
   border-radius: 0.5rem;
   padding: 2rem 0;
   text-align: center;
@@ -132,10 +132,10 @@ $background: #fafafa;
 
   padding: 1rem 2rem;
   background: $primary;
-  color: white;
+  color: black;
 
   &:hover{
-    background: #D10101;
+    background: hsl(36,61%,58.8%);
   }
 }
 
@@ -143,8 +143,12 @@ $background: #fafafa;
   @include btn;
 
   padding: 1rem 2rem;
-  background: white;
+  background: hsl(220,14.3%,16.1%);;
   color: $primary;
+  &:hover{
+    background: $primary;
+    color: black;
+  }
 }
 
 @mixin textLink {
@@ -169,7 +173,7 @@ $background: #fafafa;
 }
 
 @mixin inputField {
-  background: white;
+  background: hsl(220,14.3%,16.1%);;
   border: 1px solid $light-grey;
   border-radius: 0.25rem;
   padding: 0 0.5rem;

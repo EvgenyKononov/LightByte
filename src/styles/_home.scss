@@ -1,5 +1,5 @@
-$black: #363636;
-$red: #e50000;
+$black: hsl(0, 0%, 80.8%);
+$red: hsl(36, 61%, 68.8%);
 $desktop-padding: 5rem;
 $tablet-padding: 3rem;
 $mobile-padding: 1rem;
@@ -54,9 +54,9 @@ $mobile-padding: 1rem;
 
     &-logo {
       margin: 1rem;
-
       & img {
-        height: 3rem;
+        height: 6rem;
+        margin-block: -3rem;
       }
     }
 
@@ -67,7 +67,8 @@ $mobile-padding: 1rem;
       color: $black;
 
       &:hover {
-        color: $red;
+        background: #d6a356;
+        color: black;
       }
     }
 
@@ -174,8 +175,10 @@ $mobile-padding: 1rem;
   &__3-col {
     text-align: center;
     padding: 2rem $desktop-padding;
-    background: #fafafa;
-
+    //background: hsl(220, 14.3%, 90.1%);
+    //h1, h2, h3, p,div {
+    //  color: black !important
+    //}
     @include tablet {
       padding: 1rem $tablet-padding;
     }
@@ -280,7 +283,7 @@ $mobile-padding: 1rem;
 
   &__contact {
     padding: 2rem $desktop-padding;
-    background: #fafafa;
+    background: hsl(220, 14.3%, 16.1%);;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -340,7 +343,7 @@ $mobile-padding: 1rem;
     flex-direction: column;
     text-align: center;
     padding: 1rem $desktop-padding;
-    background: #fafafa;
+    background: hsl(220, 14.3%, 16.1%);;
 
     &-support {
       & p {

@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 
-export default function useTidio(isShow = true) {
+export default function useTidio(isShow = false) {
   useEffect(() => {
     let observer = new MutationObserver(() => {
       const tidio = document.getElementById("tidio-chat-iframe")

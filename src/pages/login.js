@@ -96,12 +96,12 @@ function Login() {
   return (
     <div className={block}>
       <Meta
-        title='TurboMenu — Log in'
-        description='TurboMenu is a free tool that allows you to create a mobile-friendly contactless menu to deliver a safer dining experience during COVID-19.'
+        title='LightBite — Log in'
+        description='LightBite is a tool that allows you to create a mobile-friendly contactless menu.'
       />
       <form className={`${block}__form`} onSubmit={formik.handleSubmit}>
         <Link to='/' className={`${block}__logo`}>
-          <img src={Logo} alt='TurboMenu Logo'></img>
+          <img src={Logo} alt='LightBite Logo' style={{width:'200px'}} ></img>
         </Link>
         <h2 className={`${block}__title`}>Log in to your account</h2>
         <p className={`${block}__signup`}>

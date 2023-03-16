@@ -12,8 +12,8 @@ export default function Privacy() {
     <div>
       <div className={block}>
         <Meta
-          title='TurboMenu — Privacy Policy'
-          description='TurboMenu is a free tool that allows you to create a mobile-friendly QR code menu for your restaurant during COVID-19.'
+          title='LightBite — Privacy Policy'
+          description='LightBite is a free tool that allows you to create a mobile-friendly QR code menu for your restaurant during COVID-19.'
         />
         <Link to='/'>Back to Homepage</Link>
 
@@ -21,11 +21,11 @@ export default function Privacy() {
         <p>Last updated: December 26, 2020</p>
         <h2>Introduction</h2>
         <p>
-          At TurboMenu, we’re helping restaurants create free contactless menus
-          to reduce the spread of COVID-19. In order to do so, TurboMenu
+          At LightBite, we’re helping restaurants create free contactless menus
+          to reduce the spread of COVID-19. In order to do so, LightBite
           collects the necessary information to serve our users and their
           customers effectively. This policy describes the information we
-          process to support TurboMenu. This Privacy Policy will help you better
+          process to support LightBite. This Privacy Policy will help you better
           understand how we collect use, and share your personal information. If
           any of our practices change, you will be directly informed by email.
         </p>
@@ -34,18 +34,18 @@ export default function Privacy() {
         <p>Last updated: December 28, 2020</p>
         <h2>Introduction</h2>
         <p>
-          At TurboMenu, we’re helping restaurants create free contactless menus
-          to reduce the spread of COVID-19. In order to do so, TurboMenu
+          At LightBite, we’re helping restaurants create free contactless menus
+          to reduce the spread of COVID-19. In order to do so, LightBite
           collects the necessary information to serve our users and their
           customers effectively. This policy describes the information we
-          process to support TurboMenu. This Privacy Policy will help you better
+          process to support LightBite. This Privacy Policy will help you better
           understand how we collect use, and share your personal information. If
           any of our practices change, you will be directly informed by email.
         </p>
 
         <h2>What information we collect</h2>
         <p>
-          To use TurboMenu, we collect the following information when users sign
+          To use LightBite, we collect the following information when users sign
           up to use our service:
           <ul>
             <li>Email Address</li>
@@ -58,10 +58,10 @@ export default function Privacy() {
         <h2>How your information is used</h2>
         <p>The information collected is used for the following reasons:</p>
         <ol>
-          <li>Accessing your TurboMenu account</li>
+          <li>Accessing your LightBite account</li>
           <p>
             The email address you provide during signup is used to log in to
-            your TurboMenu account. In case your password needs to be reset, a
+            your LightBite account. In case your password needs to be reset, a
             link will be sent to the email address provided. We may use your
             email address to contact you with important product updates and
             other information that may be of interest to you. You may opt out of
@@ -75,7 +75,7 @@ export default function Privacy() {
             contactless menu. We store all the information you provide,
             including: restaurant name, menu sections {"&"} menu items (names,
             descriptions, and prices). The menu information you provide is shown
-            to whoever scans your menu’s QR code or visits your unique TurboMenu
+            to whoever scans your menu’s QR code or visits your unique LightBite
             link (turbo.menu/your-restaurant). Your menu information can be
             updated or deleted at your own discretion. Any menu information that
             is deleted is completely erased from our database and cannot be
@@ -101,8 +101,8 @@ export default function Privacy() {
         <h2>How we share your information</h2>
         <p>
           We only share your Restaurant’s Name and Menu with your customers when
-          they visit your custom TurboMenu link or scan your QR code. Your email
-          is only accessible to TurboMenu admins and is not shared or sold to
+          they visit your custom LightBite link or scan your QR code. Your email
+          is only accessible to LightBite admins and is not shared or sold to
           any third parties.
         </p>
         <h2>Analytics</h2>

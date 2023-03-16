@@ -1,13 +1,9 @@
 import React from "react"
 import Meta from "../components/meta"
 import Logo from "../assets/logo.svg"
-import Hero from "../assets/hero.png"
 import Fast from "../assets/fast.svg"
 import Money from "../assets/money.svg"
 import Safe from "../assets/safe.svg"
-import TMvsPDF from "../assets/TMvsPDF.png"
-import Personalized from "../assets/personalized.png"
-import Builder from "../assets/builder.png"
 import { Link } from "gatsby"
 import useTidio from "../hooks/useTidio"
 import GlobalFooter from "../components/globalFooter"
@@ -19,12 +15,12 @@ export default function Home() {
   return (
     <div className={block}>
       <Meta
-        title='TurboMenu — Free QR code menu for your restaurant'
-        description='TurboMenu is a free tool that allows you to create a mobile-friendly QR code menu for your restaurant during COVID-19.'
+        title='LightBite — QR code menu for your restaurant'
+        description='LightBite is a tool that allows you to create a mobile-friendly QR code menu for your restaurant.'
       />
       <header className={`${block}__header`}>
         <div className={`${block}__header-logo`}>
-          <img src={Logo} alt='TurboMenu Logo'></img>
+          <img src={Logo} alt='LightBite Logo' style={{width:'200px'}}></img>
         </div>
 
         <div className={`${block}__header-links`}>
@@ -51,8 +47,6 @@ export default function Home() {
               </Link>
             </div>
           </div>
-
-          <img className={`${block}__hero-img`} src={Hero} alt='' />
         </div>
 
         <div className={`${block}__3-col`}>
@@ -96,23 +90,19 @@ export default function Home() {
           <div className={`${block}__2-col-content`}>
             <h1>Mobile-friendly menus</h1>
             <p>
-              PDF menus are hard to read on a phone. With TurboMenu, your
+              PDF menus are hard to read on a phone. With LightBite, your
               customers get a mobile-friendly version that loads fast.
             </p>
-          </div>
-          <div className={`${block}__2-col-img`}>
-            <img src={TMvsPDF} alt='' />
           </div>
         </div>
 
         <div className={`${block}__2-col reverse`}>
           <div className={`${block}__2-col-img`}>
-            <img src={Builder} alt='' />
           </div>
           <div className={`${block}__2-col-content`}>
             <h1>Hassle-free management</h1>
             <p>
-              TurboMenu manages all the hosting and technical aspects involved
+              LightBite manages all the hosting and technical aspects involved
               in having a contactless menu.
             </p>
           </div>
@@ -127,7 +117,6 @@ export default function Home() {
             </p>
           </div>
           <div className={`${block}__2-col-img`}>
-            <img src={Personalized} alt='' />
           </div>
         </div>
       </section>

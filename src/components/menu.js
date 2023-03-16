@@ -32,12 +32,12 @@ export default function Menu(props) {
   return (
     <>
       <Meta
-        title={`${title} - TurboMenu`}
-        description={`${title} Menu. Created using TurboMenu.`}
+        title={`${title} - LightBite`}
+        description={`${title} Menu. Created using LightBite.`}
       />
       {state === "loading" && (
         <div className={block + "__loading"}>
-          <img src={Logo} alt='TurboMenu Logo'></img>
+          <img src={Logo} alt='LightBite Logo' style={{width:'200px'}}></img>
           <p className={`${block}__loading-text`}>
             Loading your delicious menu...
           </p>

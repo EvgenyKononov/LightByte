@@ -109,10 +109,10 @@ export default function BuilderHeader(props) {
 
   return (
     <header className={block}>
-      <Meta title={`TurboMenu — ${title}`} />
+      <Meta title={`LightBite — ${title}`} />
       <nav className={block + "__nav"}>
         <Link to='/' className={block + "__logo"}>
-          <img src={Logo} alt='TurboMenu Logo'></img>
+          <img src={Logo} alt='LightBite Logo' style={{width:'200px'}}></img>
         </Link>
         <div className={block + "__right"}>
           <button onClick={logout} className={block + "__navLink"}>

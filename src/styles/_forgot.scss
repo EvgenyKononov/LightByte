@@ -2,7 +2,7 @@
     @include inputForm;
     padding: 4rem 0;
 
-    background: #FAFAFA;
+    background: hsl(220,14.3%,16.1%);;
     min-height: 100vh;
 
     &__header{
@@ -22,7 +22,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background: white;
+        background: hsl(220,14.3%,16.1%);;
         margin: 0% 30% 0% 30%;
         border-radius: 1rem;
         min-width: 400px;

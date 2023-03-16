@@ -33,11 +33,11 @@
 
     &__navLink {
         @include navLink;
-        background: white;
+        background: hsl(220,14.3%,16.1%);;
             border: none;
 
         & button{
-            background: white;
+            background: hsl(220,14.3%,16.1%);;
             border: none;
         }
     }
@@ -70,7 +70,7 @@
     }
 
     &__account{
-        //background: #FAFAFA;
+        //background: hsl(220,14.3%,16.1%);;
         width: 30%;
         padding: 1rem;
         border-radius: 1rem;
